@@ -1,0 +1,21 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+	int t;
+	cin >> t;
+	while(t--){
+		int a;
+		cin >> a;
+		int x=a/2;
+		int y=a-x;
+		cout << x*y << endl;
+	}
+	return 0;
+}
+
