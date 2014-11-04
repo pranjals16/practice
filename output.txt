@@ -1,0 +1,9 @@
+int main(){
+int i = 1;
+/*
+some more
+comments
+*/
+cout<<i;
+cout<<endl; return 0;
+}
